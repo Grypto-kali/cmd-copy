@@ -1,4 +1,4 @@
-# Backup Script
+# cmd-copy Backup Script
 
 This script performs a backup of the C: drive, excluding the Windows directory, to a target directory named after the computer in which the script is executed. The target directory is created in the same location as the script.
 
