@@ -25,7 +25,7 @@ echo Target: %TARGET%
 :: Copy files excluding the Windows directory
 for /d %%D in ("%SOURCE%*") do (
     if /I "%%~nxD" neq "Windows" (
-        xcopy "%%D" "%TARGET%\%%~nxD" /E /C /R /I /K /Y
+        xcopy "%%D" "%TARGET%\%%~nxD" /E /C /R /I /K /Y /H
     )
 )
 
